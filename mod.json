@@ -1,0 +1,9 @@
+{
+    "Name": "SkipIntro",
+    "DLL": "SkipIntro.dll",
+
+    "Version": "1.3.0",
+    "Description": "Skips the intro splashes + cinematic cutscene.",
+    "Author": "mpstark",
+    "Website": "www.github.com/mpstark/SkipIntro"
+}
