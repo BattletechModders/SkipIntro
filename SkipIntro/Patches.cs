@@ -18,7 +18,7 @@ namespace SkipIntro
             Traverse.Create(typeof(IntroCinematicLauncher)).Field("state").SetValue(3);
         }
     }
-    
+
     [HarmonyPatch(typeof(SplashLauncher), "Update")]
     public static class SplashLauncher_Update_Patch
     {
@@ -40,7 +40,7 @@ namespace SkipIntro
             return codeInstructions;
         }
     }
-    
+
     public static class Patches
     {
         public static void Init()
