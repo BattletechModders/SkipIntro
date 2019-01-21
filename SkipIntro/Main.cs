@@ -12,7 +12,6 @@ namespace SkipIntro
         {
             var harmony = HarmonyInstance.Create("io.github.mpstark.SkipIntro");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
-            HBSLog = Logger.GetLogger("SkipIntro");
         }
     }
 }
