@@ -1,13 +1,12 @@
 ﻿using System.Reflection;
 using Harmony;
-using HBS.Logging;
+
+// ReSharper disable UnusedMember.Global
 
 namespace SkipIntro
 {
     public static class Main
     {
-        internal static ILog HBSLog;
-
         public static void Init()
         {
             var harmony = HarmonyInstance.Create("io.github.mpstark.SkipIntro");

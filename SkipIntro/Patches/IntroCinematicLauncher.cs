@@ -1,7 +1,9 @@
 ﻿using BattleTech;
 using Harmony;
 
-namespace SkipIntro
+// ReSharper disable UnusedMember.Global
+
+namespace SkipIntro.Patches
 {
     [HarmonyPatch(typeof(IntroCinematicLauncher), "Init")]
     public static class IntroCinematicLauncher_Init_Patch
