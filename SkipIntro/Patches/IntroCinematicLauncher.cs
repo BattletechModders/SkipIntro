@@ -2,6 +2,7 @@
 using Harmony;
 
 // ReSharper disable UnusedMember.Global
+// ReSharper disable InconsistentNaming
 
 namespace SkipIntro.Patches
 {
