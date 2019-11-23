@@ -11,7 +11,9 @@ namespace SkipIntro.Patches
         public static bool Prefix(SplashLauncher __instance)
         {
             var activate = Traverse.Create(__instance).Field("activate").GetValue<ActivateAfterInit>();
-            activate.enabled = true;
+            if (activate != null && !activate.enabled)
+                activate.enabled = true;
+
             return false;
         }
     }
