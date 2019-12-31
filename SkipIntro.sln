@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkipIntro", "SkipIntro\SkipIntro.csproj", "{FBDB9B2D-AA42-40B1-B3E2-C31CA18C6DB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkipIntro", "SkipIntro.csproj", "{FBDB9B2D-AA42-40B1-B3E2-C31CA18C6DB2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{68309EFD-1F4A-40ED-BBE8-4ED12BDAAFDD}"
 	ProjectSection(SolutionItems) = preProject
